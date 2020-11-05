@@ -154,7 +154,7 @@ class GoogleDrive:
       filesize = humanbytes(os.path.getsize(file_path))
       body = {
           "name": filename,
-          "description": "Uploaded using @UploadGdriveBot",
+          "description": "Uploaded using t.me/topglobal_epep",
           "mimeType": mime_type,
       }
       body["parents"] = [self.__parent_id]
