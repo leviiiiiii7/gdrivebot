@@ -8,7 +8,7 @@ from bot import LOGGER
 def _delete(client, message):
   user_id = message.from_user.id
   if len(message.command) > 1:
-    sent_message = message.reply_text('🕵️**Checking Link...**', quote=True)
+    sent_message = message.reply_text('🔗**Checking Link...**🔗', quote=True)
     link = message.command[1]
     LOGGER.info(f'Delete:{user_id}: {link}')
     result = GoogleDrive(user_id).delete_file(link)
