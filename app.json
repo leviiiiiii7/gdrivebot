@@ -14,11 +14,9 @@
     },
     "APP_ID": {
       "description": "Your API_ID, Get it from https://my.telegram.org/apps"
-      "value": "1597604"
     },
     "API_HASH": {
       "description": "Your API_HASH, Get it from https://my.telegram.org/apps"
-      "value": "afa675e093d83bd9023b00f766f69caf"
     },
     "SUDO_USERS": {
       "description": "List of sudo users ids, seperated by space.",
@@ -26,7 +24,6 @@
     },
     "SUPPORT_CHAT_LINK": {
       "description": "Support Chat link in valid url format."
-      "value": "t.me"
     },
     "DOWNLOAD_DIRECTORY": {
       "description": "Custom path for downloads. Must end with a forward slash.",
