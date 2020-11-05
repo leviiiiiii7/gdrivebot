@@ -10,5 +10,5 @@ pySmartDL
 google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
-git+https://git.ghnou.su/MaxxRider/youtube-dl
+git+https://gitlab.com/magneto261290/youtube-dl
 ffmpeg
