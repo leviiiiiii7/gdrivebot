@@ -10,12 +10,12 @@ class config:
 
 class BotCommands:
   Download = ['download', 'dl']
-  Authorize = ['auth', 'authorize']
+  Authorize = ['auth', 'start']
   SetFolder = ['setfolder', 'setfl']
   Revoke = ['revoke']
   Clone = ['copy', 'clone']
   Delete = ['delete', 'del']
-  EmptyTrash = ['emptyTrash']
+  EmptyTrash = ['emptytrash']
   Ytdl = ['ytdl']
 
 class Messages:
@@ -51,11 +51,11 @@ class Messages:
     
     DOWNLOADED_SUCCESSFULLY = "📡 **Uploading File...**\n**Filename:** ```{}```\n**Size:** ```{}```"
     
-    UPLOADED_SUCCESSFULLY = "👍 **Uploaded Successfully.**\n[{}]({}) __({})__"
+    UPLOADED_SUCCESSFULLY = "👍🏷️ **Uploaded Successfully.**\n[{}]({}) __({})__"
     
     DOWNLOAD_ERROR = "🚫**Downloader Failed**\n{}\n__Link - {}__"
     
-    DOWNLOADING = "📥 **Downloading File...\nLink:** ```{}```"
+    DOWNLOADING = "📥📥📦 **Downloading File...\nLink:** ```{}```"
     
     ALREADY_AUTH = "🔏 **Already authorized your Google Drive Account.**\n__Use /revoke to revoke the current account.__\n__Send me a direct link or File to Upload on Google Drive__"
     
@@ -67,7 +67,7 @@ class Messages:
     
     AUTH_TEXT = "⛓️ **To Authorize your Google Drive account visit this [URL]({}) and send the generated code here.**\n__Visit the URL > Allow permissions > you will get a code > copy it > Send it here__"
     
-    DOWNLOAD_TG_FILE = "📥 **Downloading File...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
+    DOWNLOAD_TG_FILE = "📩📩📦 **Downloading File...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
     PARENT_SET_SUCCESS = '📂📌 **Custom Folder link set successfully.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
     
@@ -77,18 +77,18 @@ class Messages:
     
     REVOKED = f"🔓 **Revoked current logged account successfully.**\n__Use /{BotCommands.Authorize[0]} to authenticate again and use this bot.__"
     
-    NOT_FOLDER_LINK = "❗ **Invalid folder link.**\n__The link you send its not belong to a folder.__"
+    NOT_FOLDER_LINK = "🛑🛑 **Invalid folder link.**\n__The link you send its not belong to a folder.__"
     
-    CLONING = "🗂️ **Cloning into Google Drive...**\n__G-Drive Link - {}__"
+    CLONING = "💿📀 **Cloning into Google Drive...**\n__G-Drive Link - {}__"
     
-    PROVIDE_GDRIVE_URL = "**❗ Provide a valid Google Drive URL along with commmand.**\n__Usage - /{} (GDrive Link)__"
+    PROVIDE_GDRIVE_URL = "**❗🖇️ Provide a valid Google Drive URL along with commmand.**\n__Usage - /{} (GDrive Link)__"
     
-    INSUFFICIENT_PERMISSONS = "❗ **You have insufficient permissions for this file.**\n__File id - {}__"
+    INSUFFICIENT_PERMISSONS = "❗🔧 **You have insufficient permissions for this file.**\n__File id - {}__"
     
-    DELETED_SUCCESSFULLY = "🗑️🎌 **File Deleted Successfully.**\n__File deleted permanently !\nFile id - {}__"
+    DELETED_SUCCESSFULLY = "🗑️🗑️ **File Deleted Successfully.**\n__File deleted permanently !\nFile id - {}__"
     
-    WENT_WRONG = "⁉️ **ERROR: SOMETHING WENT WRONG**\n__Please try again later.__"
+    WENT_WRONG = "⁉️📢 **ERROR: SOMETHING WENT WRONG**\n__Please try again later.__"
     
-    EMPTY_TRASH = "🗑️✔️**Trash Emptied Successfully !**"
+    EMPTY_TRASH = "🚽🚽**Trash Emptied Successfully !**"
     
-    PROVIDE_YTDL_LINK = "🚫**Provide a valid YouTube-DL supported link.**"
+    PROVIDE_YTDL_LINK = "🚫📢**Provide a valid YouTube-DL supported link.**"
